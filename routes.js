@@ -1,4 +1,4 @@
-// Global
+// 전역(global)
 const HOME = '/'
 const JOIN = '/join'
 const LOGIN = '/login'
@@ -15,12 +15,13 @@ const CHANGE_PASSWORD = '/change-password'
 const VIDEOS = '/videos'
 const UPLOAD = '/upload'
 const VIDEO_DETAIL = '/:id'
-const EDIT_VIDEO = '/:id/edit'
+const EDIT_VIDEO = '/:id/edit' 	// ex) videos/1/edit
 const DELETE_VIDEO = '/:id/delete'
 
 const routes = {
-    home: HOME, 
-    join: JOIN, 
+    home: HOME,
+    join: JOIN,
+    login: LOGIN,
     logout: LOGOUT,
     search: SEARCH,
     users: USERS,
