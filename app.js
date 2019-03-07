@@ -7,7 +7,7 @@ import userRouter from './routers/userRouter'
 import videoRouter from './routers/videoRouter';
 import globalRouter from './routers/globalRouter'
 import routes from './routes'
-import { assertForOfStatement } from 'babel-types';
+
 
 const app = express()
 
